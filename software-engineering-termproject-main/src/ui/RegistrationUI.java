@@ -225,8 +225,8 @@ public class RegistrationUI extends JFrame {
         });
 
         // 뒤로가기
-        JButton BacktoMain = new JButton(new ImageIcon(getClass().getResource("/img/backArrow.png")));
-        BacktoMain.setBounds(30, 25, 30, 30);
+        JButton BacktoMain = new JButton("뒤로가기");
+        BacktoMain.setBounds(30, 25, 90, 30);
         contentPane.add(BacktoMain);
         BacktoMain.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
