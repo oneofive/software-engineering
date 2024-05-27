@@ -6,7 +6,7 @@ public class SqlTest {
 
         String server = "localhost"; // 서버 주소
         String user_name = "root"; //  접속자 id
-        String password = "gksakstj12^"; // 접속자 pw
+        String password = ""; // 접속자 pw
 
         // JDBC 드라이버 로드
         try {
